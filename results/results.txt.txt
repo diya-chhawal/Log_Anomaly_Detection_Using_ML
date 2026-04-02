@@ -1,0 +1,5 @@
+Model          Avg F1 (Anomaly)     Train Time     Inference Time
+----------------------------------------------------------------
+KNN            0.612                Very Fast      Fast
+Decision Tree  0.615 (Best)         Fast           Very Fast
+MLP (SLFN)     0.611                Slow           Fast
