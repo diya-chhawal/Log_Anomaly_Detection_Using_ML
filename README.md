@@ -140,9 +140,9 @@ pip install -r requirements.txt
 ### 2. Run Manual Models
 
 ```bash
-python src/knn_experiment.py
-python src/dt_experiment.py
-python src/mlp_experiment.py
+python src/knn.py
+python src/dt.py
+python src/mlp.py
 ```
 
 ### 3. Run LightAD Experiments
