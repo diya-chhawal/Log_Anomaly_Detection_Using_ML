@@ -33,6 +33,22 @@ The objective is to analyze whether **simple machine learning models** can effec
 
 ---
 
+## 📂 Project Structure
+
+LightAD-Anomaly-Detection/
+│
+├── datasets/
+├── models/
+├── src/
+├── results/
+├── main_hdfs.py
+├── main_opt.py
+├── utils.py
+├── visualize_results.py
+├── README.md
+
+---
+
 ## 🧪 Methodology
 
 ### Step 1: Manual Model Implementation
@@ -117,3 +133,29 @@ Despite increased complexity, neural networks do not provide significant improve
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Run Manual Models
+
+```bash
+python src/knn_experiment.py
+python src/dt_experiment.py
+python src/mlp_experiment.py
+```
+
+### 3. Run LightAD Experiments
+
+```bash
+python main_hdfs.py --model knn
+python main_hdfs.py --model dt
+python main_hdfs.py --model slfn
+```
+
+### 4. Generate Graph
+
+```bash
+python visualize_results.py
+```
+
+
+
