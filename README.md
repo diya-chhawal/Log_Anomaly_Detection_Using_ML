@@ -37,9 +37,11 @@ The objective is to analyze whether **simple machine learning models** can effec
 
 LightAD-Anomaly-Detection/
 │
+
 ├── datasets/
 
 ├── models/
+
 ├── src/
 ├── results/
 ├── main_hdfs.py
