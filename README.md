@@ -98,7 +98,7 @@ LightAD-Anomaly-Detection/
 
 ## 📊 Visualization
 
-![Model Comparison](results/model_comparison.png)
+![Model Comparison](results/resultsvisualization.png)
 
 ---
 
